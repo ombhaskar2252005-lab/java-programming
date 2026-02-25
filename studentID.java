@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class studentID {
+    public static void main(String[] args){
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter your name:");
+      String name = sc.nextLine();
+      System.out.println("Enter your roll number:");
+      int roll = sc.nextInt();
+      System.out.println("Student name: " + name);
+        System.out.println("Student roll number: " + roll);
+        sc.close();   
+    }
+    
+}
