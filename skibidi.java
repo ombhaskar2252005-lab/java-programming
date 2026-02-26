@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class skibidi {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your name:");
+        String name = sc.nextLine();
+        System.out.println("Enter your income:");
+        Double n = sc.nextDouble();
+        System.out.println("Enter your age:");
+        int age = sc.nextInt();
+        System.out.println("Your name is: " + name);
+        System.out.println("Your income is: " + n);
+        System.out.println("Your age is: " + age);
+       
+        sc.close();
+        
+    }
+}
