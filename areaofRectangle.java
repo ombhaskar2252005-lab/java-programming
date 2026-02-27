@@ -8,10 +8,10 @@ public class areaofRectangle {
         double area = 0;
         System.out.println("Enter length of rectangle: ");
         length = sc.nextDouble();
-        System.out.println("Enter width of rectangle: ");
+        System.out.println("Enter breadth of rectangle: ");
         breadth = sc.nextDouble();
         area = length * breadth;
-        System.out.println("Area of rectangle is: " + area);
+        System.out.println("Area of rectangle is: " + area + "cm^2");
         sc.close();
     }
     
