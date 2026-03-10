@@ -3,7 +3,7 @@
     String name;
     int age;
     int attendance;
-    int marks = 87;
+    int marks ;
     void study(){ //methods or actions 
         System.out.println("studying"); //it is non static it is called by object and it is written inside the class
     }
@@ -19,6 +19,7 @@
         System.out.println("marks is " + marks);
         System.out.println("attendance is "+attendance);
     }
+    
 }
 
 public class OOPS {
@@ -28,5 +29,8 @@ public class OOPS {
         s1.study(); //methods called
         s1.setproperties("ayush", 20, 90, 87);
         s1.display();
+        Student s2 = new Student();
+        s2.setproperties("sanju", 21, 80, 89);
+        s2.display();
     }
 }
