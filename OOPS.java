@@ -7,6 +7,12 @@
     void study(){ //methods or actions 
         System.out.println("studying"); //it is non static it is called by object and it is written inside the class
     }
+    void setproperties(String name, int age, int attendance, int marks){
+        this.name = name;
+        this.age = age;
+        this.attendance = attendance;
+        this.marks = marks;
+    }
     void display(){
         System.out.println("name is "+name);
         System.out.println("age is "+age);
@@ -19,11 +25,8 @@ public class OOPS {
     public static void main(String[] args) {
 
         Student s1 = new Student();
-        s1.name = "ayush";
-        s1.age = 20;
-        s1.attendance = 90;
-        s1.marks = 87;
-        s1.display(); //methods called
         s1.study(); //methods called
+        s1.setproperties("ayush", 20, 90, 87);
+        s1.display();
     }
 }
