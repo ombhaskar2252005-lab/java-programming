@@ -24,7 +24,7 @@ class Car{
 public class car_oops{
     public static void main(String[] args){
         System.out.println("Class Car");
-        Car c1 = new Car();
+        Car c1 = new Car(); //c1 is object referrence
         c1.setproperties("BMW", 220, 50000000);
         c1.display();
         c1.accelerate(30);
