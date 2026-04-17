@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 public class twoDarray {
   public static void main(String[] args){
     int arr[][] = {
@@ -54,5 +54,6 @@ public class twoDarray {
     System.out.println("Sum: " + sum);
     System.out.println("Max: " + max);
   }
+  
     
 }
