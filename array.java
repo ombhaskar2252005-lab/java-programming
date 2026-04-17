@@ -38,10 +38,12 @@ public class array{
         //user input array
         Scanner sc = new Scanner(System.in);
         int nums[] = new int[8];
+        // taking input from user
         for(int i =0; i< nums.length; i++){
             nums[i] = sc.nextInt();
 
         }
+        // printing user input array
         System.out.println("User input array is :");
         for(int i = 0; i < nums.length; i++){
             System.out.print(nums[i] + " ");
