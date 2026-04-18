@@ -49,6 +49,6 @@ public class array{
             System.out.print(nums[i] + " ");
         }
         // we can use for each loop here too
-        sc.close();
+    
     }
 }
