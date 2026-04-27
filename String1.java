@@ -57,7 +57,6 @@ public class String1 {
         sb1.reverse();
         String ans = sb1.toString();
         System.out.println("Reversed string: " + ans);
-
-
+        
     }
 }
