@@ -5,13 +5,13 @@ class MethodOverloadng{
         int ans = sum/2;
         return ans;
     }
-    int avg(double m1, double m2){
+    int avg(double m1, double m2){ //data type of parameters change
         double sum = m1+m2;
         double ans = sum / 2;
         return (int) ans;
     }
     //avg of 3 marks
-    double avg(double m1, int m2, double m3){
+    double avg(double m1, int m2, double m3){ //number of parameters change git 
         double sum = m1+m2+m3;
         double ans = sum / 3;
         return ans;
