@@ -20,9 +20,9 @@ class Bowler extends Cricketer{
     }
 }
 
-public class hybrid {
+public class hierarchical {
     public static void main(String[] args){
-        System.out.println("Hybrid Inheritance");
+        System.out.println("Hierarchical Inheritance");
         Batsman b = new Batsman();
         b.play();
         b.say();
