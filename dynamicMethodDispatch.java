@@ -19,9 +19,11 @@ class Cat extends Animal{
 }
 public class dynamicMethodDispatch {
     public static void main(String[] args){
-        Animal a = new Dog();
+        Animal a = new Dog(); //upcasting
+        //we have to convert a to dog(child)class to call eat method
+        Dog d = (Dog) a; //downcasting
         a.sound(); 
-        //a.eat(); //error because reference variable is of type animal and eat method is not present in animal class
+        d.eat(); //limitation of upcasting - cannot call methods that are specific to the subclass
 
         Animal b = new Cat();
         b.sound(); //methods usi ka chalega jiska object hoga
