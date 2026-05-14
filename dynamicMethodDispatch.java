@@ -34,6 +34,8 @@ public class dynamicMethodDispatch {
         Animal b = new Cat();
         b.sound(); //methods usi ka chalega jiska object hoga
         Cat c = (Cat) b; //it is downcasting, we are converting parent class reference to child class reference
-
+        if (c instanceof Cat) {
+            System.out.println("c is an instance of Cat");
+        }
     }
 }
