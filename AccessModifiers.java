@@ -7,10 +7,10 @@ class Parent{
 }
 class Child extends Parent{
     void display(){
-    // System.out.println(a);
-    //System.out.println(b);
-   System.out.println(c);
-   // System.out.println(d);
+     //System.out.println(a); it show error because of the private it only run in same class
+     System.out.println(b);
+     System.out.println(c);
+     System.out.println(d);
     }
 }
 
