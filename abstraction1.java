@@ -39,7 +39,7 @@ public class abstraction1 {
         c.display();
         //1. abstract method = no body [before curly brackets]
         //2. abstract method = abstract class - no object creation
-        //3. abstract class have inheritance and method overriding
+        //3. abstract class have inheritance 
         //4. child class - must override the abstract method of parent class
         
     }
