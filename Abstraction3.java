@@ -7,9 +7,10 @@ interface Person{
     int age = 10;
     static final String name = "John";
     //3. no constructor
+    //4. interface ka object nhi banta
 }
 class Student implements Person{
-    public void print(){
+    public void print(){ //method must be public in child class
         System.out.println("Student name: " + name);
         System.out.println("Student age: " + age);
     }
