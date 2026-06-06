@@ -26,6 +26,6 @@ public class multipleInheritance {
         Child c = new Child();
         c.method1();
         c.method2();
-        c.display();
+        c.display(); 
     }
 }
